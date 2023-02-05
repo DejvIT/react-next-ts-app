@@ -20,6 +20,7 @@ const Weather: NextPage<Props> = (props) => {
   const units: WeatherUnits = useMemo(() => weatherData.properties.meta.units, [weatherData]);
   const timeseries: WeatherItem[] = useMemo(() => weatherData.properties.timeseries, [weatherData]);
 
+  // TODO skeletons
   return (
     <Layout title={t('weather.title')}>
       <Container>

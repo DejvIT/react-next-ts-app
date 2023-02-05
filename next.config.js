@@ -8,14 +8,7 @@ module.exports = {
     contentEnv: process.env.CONTENT_ENV, // production / dev / staging, ..
   },
   images: {
-    domains: [
-      'cdn.stage.universum.renomia.cz',
-      'fe-source2.suri.cz',
-      'fe-source2.povinne-ruceni.com',
-      'fe-source2.srovnator.cz',
-      'qr.stage.inovis.renomia.cz',
-      'qr.inovis.renomia.cz',
-    ],
+    domains: [],
   },
   swcMinify: false,
 };

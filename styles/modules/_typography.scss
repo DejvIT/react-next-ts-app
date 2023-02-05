@@ -1,0 +1,91 @@
+.h1,
+h1 {
+  font-size: 30px;
+  line-height: 110%;
+  /* identical to box height, or 33px */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  @include responsive(desktop) {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: -0.01em;
+  }
+}
+.h2,
+h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 125%;
+  /* identical to box height, or 55px */
+  letter-spacing: -0.01em;
+}
+.h3,
+h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height */
+  letter-spacing: -0.01em;
+}
+.h4,
+h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+  letter-spacing: -0.01em;
+}
+
+.txt-20 {
+  font-size: 20px;
+  line-height: 110%;
+  /* identical to box height, or 22px */
+  letter-spacing: -0.02em;
+}
+.txt-18 {
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  letter-spacing: -0.01em;
+}
+
+.txt-16 {
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+}
+.txt-14 {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+}
+.txt-13 {
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+}
+
+.txt-semibold {
+  font-weight: 600;
+}
+
+.txt-medium {
+  font-weight: 500;
+}
+
+.clr-dark-secondary {
+  color: var(--clrDarkSecondary);
+}
+.clr-red {
+  color: $clr-red;
+}
+
+.desktop-text-right {
+  @include responsive(desktop) {
+    text-align: right;
+  }
+}

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Should render component as bordered variant 1`] = `
+<button
+  className="btn bordered sizeNormal"
+  role="button"
+  type="button"
+/>
+`;
+
+exports[`Button component Should render component as dark variant 1`] = `
+<button
+  className="btn dark sizeNormal"
+  role="button"
+  type="button"
+/>
+`;
+
+exports[`Button component Should render component as default variant 1`] = `
+<button
+  className="btn link sizeNormal"
+  onClick={[Function]}
+  role="button"
+  type="submit"
+/>
+`;
+
+exports[`Button component Should render component as icon variant 1`] = `
+<button
+  className="btn icon sizeNormal"
+  onClick={[Function]}
+  role="button"
+  type="button"
+>
+  <CloseIcon
+    hexColor="var(--clrDarkSecondary)"
+  />
+</button>
+`;
+
+exports[`Button component Should render component as link-secondary variant 1`] = `
+<button
+  className="test btn linkSecondary sizeNormal"
+  role="button"
+  type="button"
+/>
+`;
+
+exports[`Button component Should render component as primary variant 1`] = `
+<button
+  className="btn primary sizeNormal"
+  id="1"
+  role="button"
+  type="submit"
+/>
+`;
+
+exports[`Button component Should render component as secondary variant 1`] = `
+<button
+  className="btn secondary sizeNormal"
+  id="2"
+  onClick={[Function]}
+  role="button"
+  type="button"
+/>
+`;
+
+exports[`Button component Should render component as tertiary variant 1`] = `
+<button
+  className="btn tertiary sizeNormal"
+  id="3"
+  role="button"
+  type="button"
+/>
+`;

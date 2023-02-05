@@ -1,0 +1,49 @@
+.horizontalGridWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 2em 0;
+
+  .horizontalGrid {
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 3rem;
+
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+    ::-webkit-scrollbar {
+      display: none; /* Safari and Chrome */
+    }
+  }
+
+  .leftButton {
+    position: absolute;
+    left: 0;
+    padding: 1rem;
+    top: 0;
+    bottom: 0;
+    height: 50px;
+    margin: auto 0;
+  }
+
+  .rightButton {
+    position: absolute;
+    right: 0;
+    padding: 1rem;
+    top: 0;
+    bottom: 0;
+    height: 50px;
+    margin: auto 0;
+  }
+}
+
+.tableWrapper {
+  display: flex;
+  overflow-x: scroll;
+
+  .tableRow {
+    cursor: pointer;
+  }
+}

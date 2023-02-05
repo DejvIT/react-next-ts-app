@@ -1,0 +1,10 @@
+@import '@app/styles/modules/colors';
+@import '@app/styles/modules/_mixins.scss';
+
+.card {
+  background-color: var(--clrPrimaryLight) !important;
+}
+.cardSelected {
+  background-color: var(--clrPrimaryDark) !important;
+  box-shadow: 0px 5px 10px var(--clrDarkSecondary), 0px 3px 3px var(--clrDarkTertiary);
+}

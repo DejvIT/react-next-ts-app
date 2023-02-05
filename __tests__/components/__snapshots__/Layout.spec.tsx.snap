@@ -1,0 +1,655 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout component Should render component with wrapped child component 1`] = `
+<Fragment>
+  <Head>
+    <title>
+      Test title |
+       React App
+    </title>
+    <link
+      href="/favicon.ico"
+      rel="icon"
+    />
+    <meta
+      content="noindex,nofollow"
+      key="robots"
+      name="robots"
+    />
+    <meta
+      content="noindex,nofollow"
+      key="googlebot"
+      name="googlebot"
+    />
+  </Head>
+  <div>
+    <header
+      className="header"
+    >
+      <Navbar
+        bg="light"
+        className="navbar"
+        collapseOnSelect={true}
+        expand="lg"
+        variant="light"
+      >
+        <Container
+          fluid={false}
+        >
+          <NavbarBrand>
+            <img
+              alt="Logo"
+              className="brandLogo"
+              height={80}
+              src="/img/navbar/wolf.png"
+              width={80}
+            />
+          </NavbarBrand>
+          <NavbarToggle
+            aria-controls="responsive-navbar-nav"
+            label="Toggle navigation"
+          />
+          <NavbarCollapse
+            id="responsive-navbar-nav"
+          >
+            <Nav
+              className="mr-auto"
+              fill={false}
+              justify={false}
+            >
+              <NavLink
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  }
+                }
+                disabled={false}
+                onClick={[Function]}
+              >
+                menu.home
+              </NavLink>
+              <NavLink
+                as={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "render": [Function],
+                  }
+                }
+                disabled={false}
+                onClick={[Function]}
+              >
+                menu.about
+              </NavLink>
+              <NavDropdown
+                id="collasible-nav-dropdown"
+                title="menu.dropdown"
+              >
+                <DropdownItem
+                  as={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    }
+                  }
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  menu.weather
+                </DropdownItem>
+                <DropdownItem
+                  as={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    }
+                  }
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  menu.portfolio
+                </DropdownItem>
+                <DropdownItem
+                  as={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    }
+                  }
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  menu.calendar
+                </DropdownItem>
+                <DropdownDivider
+                  role="separator"
+                />
+                <DropdownItem
+                  as={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "render": [Function],
+                    }
+                  }
+                  disabled={false}
+                  onClick={[Function]}
+                >
+                  menu.contact
+                </DropdownItem>
+              </NavDropdown>
+            </Nav>
+          </NavbarCollapse>
+        </Container>
+      </Navbar>
+      <img
+        alt="car"
+        className="absoluteImage"
+        onClick={[Function]}
+        src="/img/navbar/car.png"
+        width={250}
+      />
+    </header>
+    <main
+      className="main"
+    >
+      <Container
+        className="text-center"
+        fluid={false}
+      >
+        <p>
+          TEST
+        </p>
+      </Container>
+    </main>
+    <footer
+      className="footer"
+    >
+      <Container
+        fluid={false}
+      >
+        <div
+          className="footerInsuranceCompanyLogos"
+        >
+          <a
+            href="https://www.fatless.sk"
+            key="0"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FatlessIcon
+              colorHex="#ffffff80"
+            />
+          </a>
+          <a
+            href="https://www.denevy.eu"
+            key="1"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <DenevyIcon
+              colorHex="#ffffff80"
+            />
+          </a>
+          <a
+            href="https://www.juno.one"
+            key="2"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <JunoIcon
+              colorHex="#ffffff80"
+            />
+          </a>
+          <a
+            href="https://www.ivysilani.cz/"
+            key="3"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <CtIcon
+              colorHex="#ffffff80"
+            />
+          </a>
+          <a
+            href="https://www.synapsa.tech"
+            key="4"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <SynapsaIcon
+              colorHex="#ffffff80"
+            />
+          </a>
+          <a
+            href="https://www.mesa-parts.cz/"
+            key="5"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <MesaIcon
+              colorHex="#ffffff80"
+            />
+          </a>
+        </div>
+        <hr />
+        <Row>
+          <Col
+            lg={5}
+          >
+            <img
+              alt="Logo"
+              className="footerLogo"
+              draggable={false}
+              src="/img/navbar/wolf.png"
+              width={80}
+            />
+            <p>
+              footer.subtitle
+            </p>
+            <ul
+              className="footerSocials"
+            >
+              <li
+                key="facebook"
+              >
+                <a
+                  href="https://www.facebook.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  title="Facebook"
+                >
+                  <FacebookIcon />
+                  <span
+                    className="visually-hidden"
+                  >
+                    facebook
+                  </span>
+                </a>
+              </li>
+              <li
+                key="instagram"
+              >
+                <a
+                  href="https://www.instagram.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  title="Instagram"
+                >
+                  <InstagramIcon />
+                  <span
+                    className="visually-hidden"
+                  >
+                    instagram
+                  </span>
+                </a>
+              </li>
+              <li
+                key="youtube"
+              >
+                <a
+                  href="http://www.youtube.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  title="Youtube"
+                >
+                  <YoutubeIcon />
+                  <span
+                    className="visually-hidden"
+                  >
+                    youtube
+                  </span>
+                </a>
+              </li>
+              <li
+                key="linkedin"
+              >
+                <a
+                  href="https://www.linkedin.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  title="Linkedin"
+                >
+                  <LinkedinIcon />
+                  <span
+                    className="visually-hidden"
+                  >
+                    linkedin
+                  </span>
+                </a>
+              </li>
+              <li
+                key="twitter"
+              >
+                <a
+                  href="https://twitter.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  title="Twitter"
+                >
+                  <TwitterIcon />
+                  <span
+                    className="visually-hidden"
+                  >
+                    twitter
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </Col>
+          <Col
+            lg={7}
+          >
+            <Row>
+              <Col
+                className="footerSection"
+                key="0"
+                lg={4}
+                sm={6}
+                xs={6}
+              >
+                <strong>
+                  footer.sites.title
+                </strong>
+                <ul>
+                  <li
+                    key="0"
+                  >
+                    <a
+                      href="/weather"
+                      target="_parent"
+                    >
+                      menu.weather
+                       
+                    </a>
+                  </li>
+                  <li
+                    key="1"
+                  >
+                    <a
+                      href="/portfolio"
+                      target="_parent"
+                    >
+                      menu.portfolio
+                       
+                    </a>
+                  </li>
+                  <li
+                    key="2"
+                  >
+                    <a
+                      href="/calendar"
+                      target="_parent"
+                    >
+                      menu.calendar
+                       
+                    </a>
+                  </li>
+                </ul>
+              </Col>
+              <Col
+                className="footerSection"
+                key="1"
+                lg={4}
+                sm={6}
+                xs={6}
+              >
+                <strong>
+                  footer.info.title
+                </strong>
+                <ul>
+                  <li
+                    key="0"
+                  >
+                    <a
+                      href="/about"
+                      target="_parent"
+                    >
+                      menu.about
+                       
+                    </a>
+                  </li>
+                  <li
+                    key="1"
+                  >
+                    <a
+                      href="/contact"
+                      target="_parent"
+                    >
+                      menu.contact
+                       
+                    </a>
+                  </li>
+                </ul>
+              </Col>
+              <Col
+                className="footerSection"
+                lg={4}
+                sm={6}
+                xs={6}
+              >
+                <strong>
+                  footer.contact.title
+                </strong>
+                <ul
+                  className="textStrong"
+                >
+                  <li>
+                    <span
+                      style={
+                        Object {
+                          "lineHeight": "1.7rem",
+                        }
+                      }
+                    >
+                      footer.contact.streetAddress
+                      ,
+                    </span>
+                    <br />
+                    <span
+                      style={
+                        Object {
+                          "lineHeight": "1.7rem",
+                        }
+                      }
+                    >
+                      footer.contact.cityAddress
+                    </span>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <span>
+                      footer.phone
+                       
+                      footer.contact.phone
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      footer.email
+                       
+                      <a
+                        href="mailto:footer.contact.email"
+                      >
+                        footer.contact.email
+                      </a>
+                    </span>
+                  </li>
+                </ul>
+                <ul
+                  className="textStrong"
+                >
+                  <li
+                    key="0"
+                  >
+                    <span
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "80px",
+                        }
+                      }
+                    >
+                      footer.contact.openingHours.weekdays
+                    </span>
+                    <span>
+                      08:00 – 21:00
+                    </span>
+                  </li>
+                  <li
+                    key="1"
+                  >
+                    <span
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "80px",
+                        }
+                      }
+                    >
+                      footer.contact.openingHours.sunday
+                    </span>
+                    <span>
+                      10:00 – 14:00
+                    </span>
+                  </li>
+                </ul>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+        <Row>
+          <Col
+            lg={12}
+          >
+            <div
+              className="footerRating"
+            >
+              <div
+                className="stars"
+              >
+                <StarIcon
+                  isFilled={true}
+                  key="0"
+                />
+                <StarIcon
+                  isFilled={true}
+                  key="1"
+                />
+                <StarIcon
+                  isFilled={true}
+                  key="2"
+                />
+                <StarIcon
+                  isFilled={true}
+                  key="3"
+                />
+                <StarIcon
+                  isFilled={true}
+                  key="4"
+                />
+              </div>
+              <div>
+                4.9
+                <span>
+                   
+                  / 
+                  5
+                  ・
+                  footer.rating.amount
+                </span>
+              </div>
+            </div>
+            <small
+              className="text"
+            >
+              footer.rating.text
+            </small>
+          </Col>
+          <Col
+            lg={12}
+          >
+            <hr />
+          </Col>
+          <Col
+            className="text-right"
+            lg={12}
+          >
+            <small
+              className="text disclaimer"
+            >
+              2020 - 
+              2023
+               
+              footer.disclaimer
+            </small>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
+  </div>
+  <JSXStyle
+    dynamic={
+      Array [
+        "
+         --clrPrimary: #e95414;
+         --clrPrimaryDark: #B13601;
+         --clrPrimaryLight: #f9cbb8;
+         --clrPrimaryLighter: #fbeae3;
+
+         --clrDarkPrimary: #3b3330;
+         --clrDarkSecondary: #736158;
+         --clrDarkTertiary: #ab9b93;
+
+         --clrGreen: #46b48b;
+         --clrGreenLight: #daf0e8;
+         --clrGreenDark: #288260;
+
+         --clrOrange: #e98f14;
+         --clrOrangeLight: #f9ecd1;
+         --clrOrangeDark: #b46b07;
+
+         --clrDivider: #e1d9ce;
+         --clrBg: #f5f4f3;
+
+         --clrInputFocusShadow: rgba(233, 84, 20, 0.16);
+         --clrItemBoxShadow: rgba(59, 51, 48, 0.12);
+
+         --clrDisabledBg: #F5F4F3;
+         --clrDisabledText: #AB9B93;
+     ",
+      ]
+    }
+    id="c45b218cf27418"
+  >
+    :root{
+         --clrPrimary: #e95414;
+         --clrPrimaryDark: #B13601;
+         --clrPrimaryLight: #f9cbb8;
+         --clrPrimaryLighter: #fbeae3;
+
+         --clrDarkPrimary: #3b3330;
+         --clrDarkSecondary: #736158;
+         --clrDarkTertiary: #ab9b93;
+
+         --clrGreen: #46b48b;
+         --clrGreenLight: #daf0e8;
+         --clrGreenDark: #288260;
+
+         --clrOrange: #e98f14;
+         --clrOrangeLight: #f9ecd1;
+         --clrOrangeDark: #b46b07;
+
+         --clrDivider: #e1d9ce;
+         --clrBg: #f5f4f3;
+
+         --clrInputFocusShadow: rgba(233, 84, 20, 0.16);
+         --clrItemBoxShadow: rgba(59, 51, 48, 0.12);
+
+         --clrDisabledBg: #F5F4F3;
+         --clrDisabledText: #AB9B93;
+     
+          }
+  </JSXStyle>
+</Fragment>
+`;

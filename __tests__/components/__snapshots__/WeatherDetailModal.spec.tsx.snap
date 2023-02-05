@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherDetailModal component Should render component when not visible 1`] = `
+<Modal
+  animation={true}
+  autoFocus={true}
+  backdrop={true}
+  centered={true}
+  dialogAs={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "render": [Function],
+    }
+  }
+  enforceFocus={true}
+  keyboard={true}
+  onHide={[MockFunction]}
+  restoreFocus={true}
+  show={false}
+  size="sm"
+>
+  <ModalHeader
+    closeButton={false}
+    closeLabel="Close"
+  >
+    <CloseButton
+      aria-label="Close"
+      onClick={[MockFunction]}
+    />
+  </ModalHeader>
+  <ModalBody
+    className="modalBody"
+  >
+    <h3
+      className="m-mt-24"
+    >
+      weather.detail.title
+    </h3>
+    <div>
+      <p>
+        weather.detail.next1summary
+        :
+         
+        weather.detail.summary.partlycloudy_night
+      </p>
+      <p>
+        weather.detail.next1precipitation
+        : 
+        0
+      </p>
+      <p>
+        weather.detail.next6summary
+        :
+         
+        weather.detail.summary.cloudy
+      </p>
+      <p>
+        weather.detail.next6precipitation
+        : 
+        0
+      </p>
+      <p>
+        weather.detail.next12summary
+        :
+         
+        weather.detail.summary.cloudy
+      </p>
+    </div>
+  </ModalBody>
+</Modal>
+`;
+
+exports[`WeatherDetailModal component Should render component when visible 1`] = `
+<Modal
+  animation={true}
+  autoFocus={true}
+  backdrop={true}
+  centered={true}
+  dialogAs={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "render": [Function],
+    }
+  }
+  enforceFocus={true}
+  keyboard={true}
+  onHide={[MockFunction]}
+  restoreFocus={true}
+  show={true}
+  size="sm"
+>
+  <ModalHeader
+    closeButton={false}
+    closeLabel="Close"
+  >
+    <CloseButton
+      aria-label="Close"
+      onClick={[MockFunction]}
+    />
+  </ModalHeader>
+  <ModalBody
+    className="modalBody"
+  >
+    <h3
+      className="m-mt-24"
+    >
+      weather.detail.title
+    </h3>
+    <div>
+      <p>
+        weather.detail.next1summary
+        :
+         
+        weather.detail.summary.partlycloudy_night
+      </p>
+      <p>
+        weather.detail.next1precipitation
+        : 
+        0
+      </p>
+      <p>
+        weather.detail.next6summary
+        :
+         
+        weather.detail.summary.cloudy
+      </p>
+      <p>
+        weather.detail.next6precipitation
+        : 
+        0
+      </p>
+      <p>
+        weather.detail.next12summary
+        :
+         
+        weather.detail.summary.cloudy
+      </p>
+    </div>
+  </ModalBody>
+</Modal>
+`;

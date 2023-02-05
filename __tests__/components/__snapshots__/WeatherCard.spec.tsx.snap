@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherCard component Should render component in info variant 1`] = `
+<Card
+  bg="info"
+  body={false}
+  className="card m-4"
+  key="Info"
+  style={
+    Object {
+      "width": "18rem",
+    }
+  }
+  text="white"
+>
+  <CardHeader>
+    21:00
+  </CardHeader>
+  <CardBody>
+    <CardTitle>
+      Info
+       Card Title
+    </CardTitle>
+    <CardText>
+      <div>
+        Air pressure: 
+        1038.7
+         
+        hPa
+      </div>
+      <div>
+        Air temperature: 
+        -11.9
+         
+        celsius
+      </div>
+      <div>
+        Cloud area fraction: 
+        75
+        %
+      </div>
+      <div>
+        Relative humidity: 
+        79.3
+        %
+      </div>
+      <div>
+        Wind direction: 
+        1.2
+        °
+      </div>
+      <div>
+        Wind speed: 
+        3.6
+         
+        m/s
+      </div>
+    </CardText>
+  </CardBody>
+  <CardFooter>
+    <Memo(Button)
+      block={true}
+      onClick={[MockFunction]}
+      size="large"
+      variant="primary"
+      withChevronRight={true}
+    >
+      Open detail
+    </Memo(Button)>
+  </CardFooter>
+</Card>
+`;
+
+exports[`WeatherCard component Should render component in primary variant 1`] = `
+<Card
+  bg="primary"
+  body={false}
+  className="card m-4"
+  key="Primary"
+  style={
+    Object {
+      "width": "18rem",
+    }
+  }
+  text="white"
+>
+  <CardHeader>
+    21:00
+  </CardHeader>
+  <CardBody>
+    <CardTitle>
+      Primary
+       Card Title
+    </CardTitle>
+    <CardText>
+      <div>
+        Air pressure: 
+        1038.7
+         
+        hPa
+      </div>
+      <div>
+        Air temperature: 
+        -11.9
+         
+        celsius
+      </div>
+      <div>
+        Cloud area fraction: 
+        75
+        %
+      </div>
+      <div>
+        Relative humidity: 
+        79.3
+        %
+      </div>
+      <div>
+        Wind direction: 
+        1.2
+        °
+      </div>
+      <div>
+        Wind speed: 
+        3.6
+         
+        m/s
+      </div>
+    </CardText>
+  </CardBody>
+  <CardFooter>
+    <Memo(Button)
+      block={true}
+      onClick={[MockFunction]}
+      size="large"
+      variant="primary"
+      withChevronRight={true}
+    >
+      Open detail
+    </Memo(Button)>
+  </CardFooter>
+</Card>
+`;
+
+exports[`WeatherCard component Should render component in selected primary variant 1`] = `
+<Card
+  bg="primary"
+  body={false}
+  className="cardSelected m-4"
+  key="Primary"
+  style={
+    Object {
+      "width": "18rem",
+    }
+  }
+  text="white"
+>
+  <CardHeader>
+    21:00
+  </CardHeader>
+  <CardBody>
+    <CardTitle>
+      Primary
+       Card Title
+    </CardTitle>
+    <CardText>
+      <div>
+        Air pressure: 
+        1038.7
+         
+        hPa
+      </div>
+      <div>
+        Air temperature: 
+        -11.9
+         
+        celsius
+      </div>
+      <div>
+        Cloud area fraction: 
+        75
+        %
+      </div>
+      <div>
+        Relative humidity: 
+        79.3
+        %
+      </div>
+      <div>
+        Wind direction: 
+        1.2
+        °
+      </div>
+      <div>
+        Wind speed: 
+        3.6
+         
+        m/s
+      </div>
+    </CardText>
+  </CardBody>
+  <CardFooter>
+    <Memo(Button)
+      block={true}
+      onClick={[MockFunction]}
+      size="large"
+      variant="primary"
+      withChevronRight={true}
+    >
+      Open detail
+    </Memo(Button)>
+  </CardFooter>
+</Card>
+`;

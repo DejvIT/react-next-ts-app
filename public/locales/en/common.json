@@ -1,0 +1,77 @@
+{
+  "menu": {
+    "dropdown": "More",
+    "home": "Home",
+    "about": "About",
+    "weather": "Weather",
+    "portfolio": "Portfolio",
+    "calendar": "Calendar",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Home"
+  },
+  "about": {
+    "title": "About"
+  },
+  "weather": {
+    "title": "Weather",
+    "headline": "Today's weather in Poprad",
+    "subtitle": "You can see the current weather in Poprad (Slovakia) in the horizontal scroll card grid below",
+    "more": "For the following next days the weather predictions are in the table down below",
+    "detail": {
+      "title": "Predictions for further hours",
+      "next1summary": "Summary (Next 1 Hour)",
+      "next1precipitation": "Precipitation Amount",
+      "next6summary": "Summary (Next 6 Hours)",
+      "next6precipitation": "Precipitation Amount",
+      "next12summary": "Summary (Next 12 Hours)",
+      "summary": {
+        "cloudy": "Cloudy",
+        "partlycloudy_night": "Partly-cloudy night",
+        "partlycloudy_day": "Partly-cloudy day",
+        "clearsky_night": "Clear-sky night",
+        "clearsky_day": "Clear-sky day",
+        "undefined": "No data"
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "headline": "My projects",
+    "description": "These are some of my recent projects I have participated last 2 years"
+  },
+  "calendar": {
+    "title": "Calendar"
+  },
+  "contact": {
+    "title": "Contact us"
+  },
+  "footer": {
+    "subtitle": "This is a subtitle of the footer",
+    "sites": {
+      "title": "Interests"
+    },
+    "info": {
+      "title": "Information"
+    },
+    "rating": {
+      "amount": "1 234 Ratings",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at pharetra neque. Vivamus eget nisl vitae leo tristique interdum vitae nec tortor. Proin eu varius dolor. Suspendisse lacinia id lacus a pharetra. Integer tincidunt magna id tempor pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta libero et."
+    },
+    "disclaimer": "All rights reserved",
+    "contact": {
+      "title": "Contact",
+      "streetAddress": "Lalaland 123",
+      "cityAddress": "Fldsmdfr",
+      "phone": "+421 123 123 123",
+      "email": "test@test.sk",
+      "openingHours": {
+        "weekdays": "Po-Pia:",
+        "sunday": "Sunday:"
+      }
+    },
+    "phone": "Phone:",
+    "email": "Email:"
+  }
+}

@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherDetailModal component Should render component 1`] = `
+<Fragment>
+  <h4
+    className="text-center"
+  >
+    weather.subtitle
+  </h4>
+  <div
+    className="horizontalGridWrapper"
+  >
+    <div
+      className="horizontalGrid"
+    />
+    <Button
+      className="leftButton"
+      disabled={true}
+      onClick={[Function]}
+      size="small"
+      variant="tertiary"
+    >
+      <ChevronRightIcon
+        colorHex="var(--clrPrimary)"
+        style={
+          Object {
+            "transform": "rotate(180deg)",
+          }
+        }
+      />
+    </Button>
+    <Button
+      className="rightButton"
+      disabled={true}
+      onClick={[Function]}
+      size="small"
+      variant="secondary"
+    >
+      <ChevronRightIcon
+        colorHex="var(--clrPrimary)"
+      />
+    </Button>
+  </div>
+  <h4
+    className="text-center"
+  >
+    weather.more
+  </h4>
+  <div
+    className="tableWrapper"
+  >
+    <ForwardRef
+      bordered={true}
+      hover={true}
+      striped={true}
+    >
+      <thead>
+        <tr>
+          <th>
+            Time
+          </th>
+          <th>
+            Air Pressure
+          </th>
+          <th>
+            Air Temperature
+          </th>
+          <th>
+            Cloud Area Fraction
+          </th>
+          <th>
+            Relative Humidity
+          </th>
+          <th>
+            Wind Direction
+          </th>
+          <th>
+            Wind Speed
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          className="tableRow"
+          key="2022-02-04T12:00:00Z"
+          onClick={[Function]}
+        >
+          <td>
+            4. 2. 2022 12:00
+          </td>
+          <td>
+            1013.25
+             
+            hPa
+          </td>
+          <td>
+            12.5
+             
+            celsius
+          </td>
+          <td>
+            0.8
+            %
+          </td>
+          <td>
+            0.7
+            %
+          </td>
+          <td>
+            180
+            °
+          </td>
+          <td>
+            3
+             
+            m/s
+          </td>
+        </tr>
+        <tr
+          className="tableRow"
+          key="2022-02-05T12:00:00Z"
+          onClick={[Function]}
+        >
+          <td>
+            5. 2. 2022 12:00
+          </td>
+          <td>
+            1012.75
+             
+            hPa
+          </td>
+          <td>
+            13
+             
+            celsius
+          </td>
+          <td>
+            0.7
+            %
+          </td>
+          <td>
+            0.8
+            %
+          </td>
+          <td>
+            190
+            °
+          </td>
+          <td>
+            4
+             
+            m/s
+          </td>
+        </tr>
+      </tbody>
+    </ForwardRef>
+  </div>
+  <WeatherDetailModal
+    isVisible={false}
+    onClose={[Function]}
+    units={
+      Object {
+        "air_pressure_at_sea_level": "hPa",
+        "air_temperature": "celsius",
+        "cloud_area_fraction": "%",
+        "precipitation_amount": "mm",
+        "relative_humidity": "%",
+        "wind_from_direction": "degrees",
+        "wind_speed": "m/s",
+      }
+    }
+  />
+</Fragment>
+`;

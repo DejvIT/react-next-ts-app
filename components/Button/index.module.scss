@@ -1,0 +1,216 @@
+@import '../../styles/modules/colors';
+
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  text-align: center;
+
+  max-width: 100%;
+  height: auto;
+  padding: 14px 63px;
+  margin: 0;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: -0.02em;
+
+  /* White */
+
+  color: var(--clrPrimary);
+  outline: none;
+  /* Purple/Purple */
+  border-radius: 99px;
+
+  cursor: pointer;
+  box-sizing: border-box;
+
+  border: 1px solid transparent;
+  background: transparent;
+
+  &:hover {
+    color: var(--clrPrimaryDark);
+  }
+
+  &:focus {
+    box-shadow: 0px 0px 0px 3px rgba(var(--clrPrimary), 0.16);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+
+    .chevron {
+      path {
+        fill: var(--clrDisabledText);
+      }
+    }
+  }
+
+  &.primary {
+    color: #ffffff;
+    border: 1px solid var(--clrPrimary);
+    background: var(--clrPrimary);
+
+    &:hover {
+      color: #ffffff;
+      background: var(--clrPrimaryDark);
+      border-color: var(--clrPrimaryDark);
+    }
+
+    &:focus {
+      box-shadow: 0px 0px 0px 3px rgba(var(--clrPrimary), 0.16);
+    }
+
+    &:disabled {
+      background: var(--clrDisabledBg) !important;
+      border-color: var(--clrDisabledBg) !important;
+      color: var(--clrDisabledText) !important;
+      cursor: not-allowed;
+    }
+  }
+
+  &.linkSecondary {
+    color: var(--clrDarkSecondary);
+
+    &:hover {
+      color: var(--clrDarkPrimary);
+    }
+
+    .loadingIcon {
+      path {
+        stroke: var(--clrDarkSecondary);
+      }
+    }
+  }
+
+  &.link {
+    .loadingIcon {
+      path {
+        stroke: var(--clrPrimary);
+      }
+    }
+  }
+
+  &.secondary {
+    color: var(--clrDarkPrimary);
+    border-color: var(--clrDivider);
+    background-color: #fff;
+
+    &:hover {
+      color: var(--clrDarkPrimary);
+      box-shadow: 0px 0px 0px 1px var(--clrDivider);
+    }
+
+    &:focus {
+      box-shadow: 0px 0px 0px 3px rgba(var(--clrPrimary), 0.16);
+    }
+
+    &:disabled {
+      background-color: var(--clrBg) !important;
+      border-color: var(--clrBg) !important;
+    }
+  }
+
+  &.tertiary {
+    color: var(--clrPrimary);
+    border-color: var(--clrPrimaryLightest);
+    background-color: #fff;
+
+    &:hover {
+      color: var(--clrDarkPrimary);
+      box-shadow: 0px 0px 0px 1px var(--clrDivider);
+    }
+
+    &:focus {
+      box-shadow: 0px 0px 0px 3px rgba(var(--clrPrimary), 0.16);
+    }
+
+    &:disabled {
+      background-color: var(--clrBg) !important;
+      border-color: var(--clrBg) !important;
+    }
+  }
+
+  &.dark {
+    color: #fff;
+    border-color: var(--clrDarkPrimary);
+    background-color: var(--clrDarkPrimary);
+
+    &:hover {
+      color: #fff;
+      box-shadow: 0px 0px 0px 1px var(--clrDivider);
+    }
+
+    &:focus {
+      box-shadow: 0px 0px 0px 3px var(--clrInputFocusShadow);
+    }
+  }
+
+  &.bordered {
+    color: black;
+    width: 100%;
+    border-radius: 0.75em;
+    border-color: var(--clrDivider);
+    background-color: white;
+    margin: 0.5em 0;
+    padding: 14px 14px;
+
+    &:hover {
+      color: black;
+      border-color: var(--clrPrimaryDark);
+      background-color: var(--clrPrimaryLight);
+    }
+
+    &:focus {
+      color: black;
+      border-color: var(--clrPrimaryDark);
+      background-color: var(--clrPrimaryLight);
+    }
+  }
+
+  &.icon {
+    padding: 8px;
+    border-radius: 100%;
+    background-color: transparent;
+
+    &:hover {
+      background-color: var(--clrPrimaryLightest);
+    }
+
+    &:disabled {
+      background-color: var(--clrPrimaryLightest);
+    }
+  }
+
+  transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+
+  &.block {
+    width: 100%;
+  }
+}
+
+.chevron {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 12px;
+}
+
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loadingIcon {
+  animation: rotate-center 0.8s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite both;
+}

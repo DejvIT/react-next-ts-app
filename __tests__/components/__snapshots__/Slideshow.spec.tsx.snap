@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slideshow component Should render component 1`] = `
+<Carousel
+  activeIndex={0}
+  enableTouch={true}
+  fade={false}
+  interval={5000}
+  keyboard={true}
+  next={[Function]}
+  pause="hover"
+  previous={[Function]}
+  slide={true}
+>
+  <CarouselIndicators
+    activeIndex={0}
+    items={
+      Array [
+        Object {
+          "altText": "spring",
+          "caption": "Spring",
+          "src": "/img/slideshow/spring.png",
+          "title": "Spring",
+          "url": "/weather",
+        },
+        Object {
+          "altText": "summer",
+          "caption": "Summer",
+          "src": "/img/slideshow/summer.png",
+          "title": "Summer",
+          "url": "/weather",
+        },
+        Object {
+          "altText": "autumn",
+          "caption": "Autumn",
+          "src": "/img/slideshow/autumn.png",
+          "title": "Autumn",
+          "url": "/weather",
+        },
+        Object {
+          "altText": "winter",
+          "caption": "Winter",
+          "src": "/img/slideshow/winter.png",
+          "title": "Winter",
+          "url": "/weather",
+        },
+      ]
+    }
+    onClickHandler={[Function]}
+  />
+  <CarouselItem
+    appear={false}
+    className="customCarouselItem"
+    enter={true}
+    exit={true}
+    in={false}
+    key="/img/slideshow/spring.png"
+    mountOnEnter={false}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onEntering={[Function]}
+    onExit={[Function]}
+    onExited={[Function]}
+    onExiting={[Function]}
+    slide={true}
+    tag="div"
+    timeout={600}
+    unmountOnExit={false}
+  >
+    <img
+      alt="spring"
+      className="carouselImage"
+      height={400}
+      src="/img/slideshow/spring.png"
+      width={800}
+    />
+    <CarouselCaption
+      captionText="Spring"
+      className="text-center"
+    >
+      <h3>
+        Spring
+      </h3>
+      <NavLink
+        as={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          }
+        }
+        disabled={false}
+        onClick={[Function]}
+      >
+        Spring
+      </NavLink>
+    </CarouselCaption>
+  </CarouselItem>
+  <CarouselItem
+    appear={false}
+    className="customCarouselItem"
+    enter={true}
+    exit={true}
+    in={false}
+    key="/img/slideshow/summer.png"
+    mountOnEnter={false}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onEntering={[Function]}
+    onExit={[Function]}
+    onExited={[Function]}
+    onExiting={[Function]}
+    slide={true}
+    tag="div"
+    timeout={600}
+    unmountOnExit={false}
+  >
+    <img
+      alt="summer"
+      className="carouselImage"
+      height={400}
+      src="/img/slideshow/summer.png"
+      width={800}
+    />
+    <CarouselCaption
+      captionText="Summer"
+      className="text-center"
+    >
+      <h3>
+        Summer
+      </h3>
+      <NavLink
+        as={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          }
+        }
+        disabled={false}
+        onClick={[Function]}
+      >
+        Summer
+      </NavLink>
+    </CarouselCaption>
+  </CarouselItem>
+  <CarouselItem
+    appear={false}
+    className="customCarouselItem"
+    enter={true}
+    exit={true}
+    in={false}
+    key="/img/slideshow/autumn.png"
+    mountOnEnter={false}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onEntering={[Function]}
+    onExit={[Function]}
+    onExited={[Function]}
+    onExiting={[Function]}
+    slide={true}
+    tag="div"
+    timeout={600}
+    unmountOnExit={false}
+  >
+    <img
+      alt="autumn"
+      className="carouselImage"
+      height={400}
+      src="/img/slideshow/autumn.png"
+      width={800}
+    />
+    <CarouselCaption
+      captionText="Autumn"
+      className="text-center"
+    >
+      <h3>
+        Autumn
+      </h3>
+      <NavLink
+        as={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          }
+        }
+        disabled={false}
+        onClick={[Function]}
+      >
+        Autumn
+      </NavLink>
+    </CarouselCaption>
+  </CarouselItem>
+  <CarouselItem
+    appear={false}
+    className="customCarouselItem"
+    enter={true}
+    exit={true}
+    in={false}
+    key="/img/slideshow/winter.png"
+    mountOnEnter={false}
+    onEnter={[Function]}
+    onEntered={[Function]}
+    onEntering={[Function]}
+    onExit={[Function]}
+    onExited={[Function]}
+    onExiting={[Function]}
+    slide={true}
+    tag="div"
+    timeout={600}
+    unmountOnExit={false}
+  >
+    <img
+      alt="winter"
+      className="carouselImage"
+      height={400}
+      src="/img/slideshow/winter.png"
+      width={800}
+    />
+    <CarouselCaption
+      captionText="Winter"
+      className="text-center"
+    >
+      <h3>
+        Winter
+      </h3>
+      <NavLink
+        as={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          }
+        }
+        disabled={false}
+        onClick={[Function]}
+      >
+        Winter
+      </NavLink>
+    </CarouselCaption>
+  </CarouselItem>
+  <CarouselControl
+    direction="prev"
+    directionText="Previous"
+    onClickHandler={[Function]}
+  />
+  <CarouselControl
+    direction="next"
+    directionText="Next"
+    onClickHandler={[Function]}
+  />
+</Carousel>
+`;

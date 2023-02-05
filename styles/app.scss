@@ -1,0 +1,55 @@
+@import 'modules/colors';
+@import 'modules/fonts';
+@import 'modules/mixins';
+@import 'modules/bootstrap-vars';
+@import '~bootstrap/scss/bootstrap';
+@import 'modules/typography';
+@import 'modules/helpers';
+
+@import 'components/modal';
+
+:root {
+  --clrPrimary: #{$clr-primary};
+  --clrPrimaryDark: #{$clr-primary-dark};
+  --clrPrimaryLight: #{$clr-primary-light};
+  --clrPrimaryLighter: #{$clr-primary-lighter};
+
+  --clrDarkPrimary: #{$clr-dark-primary};
+  --clrDarkSecondary: #{$clr-dark-secondary};
+  --clrDarkTertiary: #{$clr-dark-tertiary};
+
+  --clrGreen: #{$clr-green};
+  --clrGreenLight: #{$clr-green-light};
+  --clrGreenDark: #{$clr-green-dark};
+
+  --clrOrange: #{$clr-orange};
+  --clrOrangeLight: #{$clr-orange-light};
+  --clrOrangeDark: #{$clr-orange-dark};
+
+  --clrInputFocusShadow: #{$clr-input-focus-shadow};
+  --clrItemBoxShadow: #{$clr-item-box-shadow};
+  --clrDivider: #{$clr-divider};
+  --clrBg: #{$clr-bg};
+
+  --clrDisabledBg: #{$clr-disabled-bg};
+  --clrDisabledText: #{$clr-dark-tertiary};
+}
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--clrDarkPrimary);
+  background: var(--clrPrimaryLighter);
+}
+
+.btn {
+  color: var(--clrDarkPrimary);
+}
+
+.container {
+  @media screen and (max-width: 575px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -7,6 +7,7 @@ import type { GetServerSideProps, NextPage } from 'next';
 
 import { Layout } from '@app/components';
 import { PORTFOLIO_ITEMS_DESKTOP, PORTFOLIO_ITEMS_MOBILE } from '@app/constants';
+import { Container } from 'react-bootstrap';
 
 const Portfolio: NextPage = () => {
   const { t } = useTranslation('common');
@@ -49,7 +50,7 @@ const Portfolio: NextPage = () => {
         {t('portfolio.headline')}
       </h1>
       <h4 className="text-center">{t('portfolio.description')}</h4>
-      {renderPortfolioItemsMemo}
+      <Container>{renderPortfolioItemsMemo}</Container>
     </Layout>
   );
 };

@@ -62,7 +62,13 @@ npm run test
 yarn test
 ```
 
-If you want to update snapshots put ```-u``` at the end of command.
+If you want to update snapshots use this command.
+
+```bash
+npm run test -- -u
+# or
+yarn test -u
+```
 
 ## Build
 

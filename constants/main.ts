@@ -3,6 +3,12 @@ import { PortfolioItem } from '@app/types/interface';
 
 export const LOCALSTORAGE_APP_STATE_KEY = 'react_app_state';
 
+export const FORM_FIELD_NAME_REGEX = /^([A-Za-zÀ-ÖØ-öø-ÿÁ-ĚÍ-Žž]+[\-\s’'])*([A-Za-zÀ-ÖØ-öø-ÿÁ-ĚÍ-Žž])+$/;
+export const FORM_ERR_FIELD_NAME = 'errors.person.name';
+export const FORM_ERR_FIELD_REQUIRED = 'errors.required';
+export const FORM_ERR_FIELD_EMAIL = 'errors.email.field';
+export const FORM_ERR_FIELD_EMAIL_MAX = 'errors.email.max';
+
 export const HOMEPAGE_SLIDESHOW_ITEMS: HomepageSlideshowItem[] = [
   {
     src: '/img/slideshow/spring.png',

@@ -14,7 +14,7 @@ exports[`WeatherCard component Should render component in info variant 1`] = `
   text="white"
 >
   <CardHeader>
-    21:00
+    5. 2. 2023 21:00
   </CardHeader>
   <CardBody>
     <CardTitle>
@@ -85,7 +85,7 @@ exports[`WeatherCard component Should render component in primary variant 1`] = 
   text="white"
 >
   <CardHeader>
-    21:00
+    5. 2. 2023 21:00
   </CardHeader>
   <CardBody>
     <CardTitle>
@@ -156,7 +156,7 @@ exports[`WeatherCard component Should render component in selected primary varia
   text="white"
 >
   <CardHeader>
-    21:00
+    5. 2. 2023 21:00
   </CardHeader>
   <CardBody>
     <CardTitle>

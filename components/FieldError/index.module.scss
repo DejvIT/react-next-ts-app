@@ -1,0 +1,13 @@
+@import '../../styles/modules/colors';
+
+.error {
+  display: block;
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+
+  color: $clr-red;
+}

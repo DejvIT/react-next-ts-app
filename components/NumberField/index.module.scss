@@ -1,0 +1,108 @@
+@import '../../styles/modules/colors';
+
+.formGroup {
+  margin-bottom: 24px;
+}
+
+.inputGroup {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+
+  input {
+    user-select: none;
+    display: block;
+    width: 100%;
+    padding: 9px 12px;
+
+    background-color: #fff;
+    background-clip: padding-box;
+
+    appearance: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    letter-spacing: -0.03em;
+
+    &::placeholder {
+      color: var(--clrDarkTertiary);
+    }
+
+    color: var(--clrDarkPrimary);
+    border: 1px solid var(--clrDivider);
+    box-sizing: border-box;
+    border-radius: 12px;
+    outline: 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+    &:focus,
+    &:hover {
+      box-shadow: 0px 0px 0px 3px var(--clrInputFocusShadow) !important;
+      border: 1px solid var(--clrPrimary);
+    }
+
+    &:disabled {
+      background-color: var(--clrDisabledBg) !important;
+      border-color: var(--clrDisabledBg) !important;
+      box-shadow: none !important;
+      color: var(--clrDisabledText) !important;
+      cursor: not-allowed !important;
+    }
+  }
+
+  &.withAddon {
+    input {
+      padding-right: 48px;
+    }
+  }
+}
+
+.addon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 2px 10px;
+  bottom: 0;
+  pointer-events: none;
+
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--clrDarkPrimary);
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 0px;
+    width: 1px;
+    background: var(--clrDivider);
+  }
+}
+
+.inputNumber {
+  width: 100%;
+}
+
+.withError {
+  input {
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.00065 1.33203C4.31865 1.33203 1.33398 4.3167 1.33398 7.9987C1.33398 11.6807 4.31865 14.6654 8.00065 14.6654C11.6827 14.6654 14.6673 11.6807 14.6673 7.9987C14.6673 4.3167 11.6827 1.33203 8.00065 1.33203ZM8.66732 11.332H7.33398V9.9987H8.66732V11.332ZM8.66732 8.66536H7.33398V4.66536H8.66732V8.66536Z' fill='%23CD0025'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+    background-size: 16px;
+    border-color: #cd0025 !important;
+  }
+
+  .withAddon {
+    input {
+      background-position-x: calc(100% - 55px);
+    }
+  }
+}

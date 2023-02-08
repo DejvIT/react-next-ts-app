@@ -2,12 +2,12 @@ import { MDBCol, MDBRow } from 'mdb-react-ui-kit';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import React, { memo, useMemo } from 'react';
+import { Container } from 'react-bootstrap';
 
 import type { GetServerSideProps, NextPage } from 'next';
 
 import { Layout } from '@app/components';
 import { PORTFOLIO_ITEMS_DESKTOP, PORTFOLIO_ITEMS_MOBILE } from '@app/constants';
-import { Container } from 'react-bootstrap';
 
 const Portfolio: NextPage = () => {
   const { t } = useTranslation('common');

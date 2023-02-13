@@ -20,7 +20,7 @@ const Weather: NextPage<Props> = (props) => {
   const units: WeatherUnits = useMemo(() => weatherData.properties.meta.units, [weatherData]);
   const timeseries: WeatherItem[] = useMemo(() => weatherData.properties.timeseries, [weatherData]);
 
-  // TODO skeletons
+  // TODO skeletons and useMemo for weatherData to fetch current data over time while server is running
   return (
     <Layout title={t('weather.title')}>
       <Container>
